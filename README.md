@@ -1,0 +1,1 @@
+This data set is offered under a creative commons 2.0 attribution license. Cite Gawley, J., Diddams, C., Hunter, E., and Little, T., “Machine-Actionable Descriptions of 1,000 parallels between Vergil’s Aeneid and the Epic Poems of Homer.” in This is Your Mind on Poetry: How Cognitive Processes Shape Vergil’s Allusions to Homer (Doctoral Disseration).
