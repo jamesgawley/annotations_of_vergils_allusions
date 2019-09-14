@@ -2,7 +2,7 @@
 This repository contains 1,000+ parallels between Aeneid 1 and Homer's poems, fully annotated with regard to similarity of language, sound, syntax, and topic. Each parallel is also rated according to its impact as a potential allusion on a 5-point scale. 10% of all parallels are fully described by four different annotators. Similarity tags are specific, describing the shared language and content. Code is included to convert these tags to numbers for the purpose of predictive modeling. Three such models are included: simple linear regression (which treats 5-point ratings as quantitative data); proportional odds logistic regression (treats ratings as ordinal data); and k-nearest neighbors (treats ratings as categorical data).
 
 ## CITATION
-This data set is offered under a creative commons 2.0 attribution license. Cite Gawley, J., Diddams, C., Hunter, E., and Little, T., “Machine-Actionable Descriptions of 1,000 parallels between Vergil’s Aeneid and the Epic Poems of Homer.” in This is Your Mind on Poetry: How Cognitive Processes Shape Vergil’s Allusions to Homer (Doctoral Disseration). 
+This data set is offered under a creative commons 2.0 attribution license. Cite Gawley, J., Diddams, C., Hunter, E., and Little, T., “Machine-Actionable Descriptions of 1,000 parallels between Vergil’s Aeneid and the Epic Poems of Homer.” in Vergil's Allusions to Homer: Quantifying the Reader's Experience of Intertextuality in the Aeneid (Doctoral Disseration). 
 
 ## CONTENTS
 ### /r
