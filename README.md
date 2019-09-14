@@ -17,4 +17,4 @@ r/test\_linear\_model.R: predictive models that treat TYPE as quantitative/ordin
 ### /data
 data/uniquedata.csv: all parallels in Aeneid 1 annotated, without overlap in annotations  
 data/cleaned.csv: all parallels, including parallels annotated by 2+ annotators  
-data/book\_one\_concreteness.csv: list of all   
+data/book\_one\_concreteness.csv: average concreteness ratings for each line of Aeneid 1  
