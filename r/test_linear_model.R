@@ -1,3 +1,5 @@
+#Build and test linear and models ordinal models on data produced by prep_data.R
+
 library('MASS')
 train.evenly <- function(data, percent) {
   #essentially a copy of the train() function
@@ -158,9 +160,6 @@ test.ord <- function (data, i, even = FALSE) {
   print(c("Rounded predictions off by one", length(which(rounded.results == 1))/length(rounded.results)))
   
   print(c("Rounded predictions off by > one", length(which(rounded.results > 1))/length(rounded.results)))
-  print(both[[2]]$TYPE)
-  print(predictions)
-  #logitgof(both[[2]]$TYPE, predictions, g = 10, ord = TRUE)
   
   return(trainer.model)
   
