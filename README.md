@@ -6,10 +6,11 @@ This data set is offered under a creative commons 2.0 attribution license. Cite 
 
 ## CONTENTS
 ### /r
-r/prep\_data.R: load the appropriate csv files from /data into R  
 r/cluster\_histogram.R: chart the location of all parallels in Aeneid 1  
+r/convert\_tags\_to\_numbers.R: convert text-based descriptive tags to numbers for modeling.
 r/examine\_concreteness.R: test whether highly-rated parallels feature concrete language  
 r/find\_annotator\_overlap.R: find parallels annotated by all raters & plot agreement.  
+r/prep\_data.R: load the appropriate csv files from /data into R  
 r/test\_knn.R: predictive model that treats TYPE ratings as categorical data.  
 r/test\_linear\_model.R: predictive models that treat TYPE as quantitative/ordinal data.  
 
