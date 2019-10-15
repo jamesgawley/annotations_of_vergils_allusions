@@ -1,8 +1,8 @@
 #This script reads in a cleaned version of the annotator data with no overlap in parallels
 #Tags are converted to numeric values
 #The resulting "data" object is used by, e.g. test_linear_model.R
-
-JCTL <- read.csv('../data/cleaned.csv')
+# alternatively, skip all this data cleaning by loading data/simplified.csv as 'data'
+JCTL <- read.csv('data/cleaned.csv')
 
 #isolate the rows which contain each broad topic
 

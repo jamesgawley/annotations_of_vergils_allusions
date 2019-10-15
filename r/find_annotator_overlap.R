@@ -171,7 +171,7 @@ krip = kripp.alpha(fullratings_annotator_by_subject, method = "interval")$value
 per = agree(fullratings_subject_by_annotator, tolerance = 1)$value/100
 ratings <- c(per, krip, finn, i, me, rob)
 #plot tests
-tests <- c("Percent Agreement \nTolenance = 1", "Krippendorff's Alpha", "Finn's Two-Way", "Intraclass Two-Way", "Mean Pearson's", "Robinson's A")
-barplot(ratings, names.arg = tests, xlab = "Horizontal Line Represents Mean", col = "light blue")
-title("Interrater Coefficients \n TYPE Rating of Knauer Parallels")
+tests <- c("Percent Agreement\nTolerance = 1", "Krippendorff's Alpha", "Finn's Two-Way", "Intraclass Two-Way", "Mean Pearson's", "Robinson's A")
+barplot(ratings, names.arg = tests, xlab = "Horizontal Line Represents Mean", col = "light blue", ylab = "Coefficient of Agreement")
+title("Interrater Coefficients\nTYPE Rating of Knauer Parallels")
 abline( h = mean(ratings))
